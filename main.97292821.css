@@ -13,6 +13,14 @@ html {
 body {
     margin: 0;
 }
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size:0.75em;
+        padding: 0;
+    }
+}
+
 article,
 aside,
 details,
